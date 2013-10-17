@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery.imgmanager-1.0.0.js</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="css/imgmanager.css" type="text/css" />
+        
+        <script src="jquery-2.0.3.min.js" type="text/javascript" ></script>
+        <script src="jquery.imgmanager-1.0.0.js" type="text/javascript" ></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                //$('div').imgmanager();
+            })
+        </script>
+    </head>
+    <body>
+        <div class="imgmanager">
+            <div class="header">
+                <a href="#" class="folder">Nowy folder</a>
+                <a href="#" class="file">Wgraj plik</a>
+                <a href="#" class="del">Usuń</a>
+                <a href="#" class="close">x</a>
+            </div>
+            
+            <div class="imgman-wrapper tree">
+                <ul>
+                    <li class="expand"> <a href="#">images</a> </li>
+                    <li>
+                        <ul>
+                            <li class="collapsed"> <a href="#">newsy</a> </li>
+                            <li class="collapsed"> <a href="#">kupony</a> </li>
+                            <li class="collapsed"> <a href="#">cośtam cośtam</a> </li>
+                        </ul>
+                    </li>
+                    <li class="loader"> <a href="#">travel</a> </li>
+                    <li class="collapsed"> <a href="#">shopping</a> </li>
+                    <li class="collapsed"> <a href="#">biznes</a> </li>
+                </ul>
+            </div>
+            
+            <div class="imgman-wrapper preview">
+                
+            </div>
+            
+        </div>
+    </body>
+</html>

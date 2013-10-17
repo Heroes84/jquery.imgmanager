@@ -1,0 +1,24 @@
+.imgmanager {background:#f5f5f5; width:600px; padding: 0 10px 7px; border:1px solid #ababab; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;}
+.imgmanager:after, .imgmanager:before {content:""; display:table;}
+.imgmanager:after {clear:both;}
+.imgman-wrapper {background:#ffffff; border:1px solid #cccccc;height:320px; overflow:auto;}
+
+.imgmanager div.header {height: 29px; margin-bottom:3px;}
+.imgmanager div.header:after, .imgmanager div.header:before {content:""; display:table;}
+.imgmanager div.header:after {clear:both;}
+.imgmanager div.header a 
+{background:url('../img/icons.png') no-repeat; display:block; float:left; margin-right:5px; padding:8px 5px 8px 30px; text-decoration:none; color:#000; line-height:14px;}
+.imgmanager div.header a.folder {background-position:0 -60px;}
+.imgmanager div.header a.file {background-position:0 -30px;}
+.imgmanager div.header a.del {background-position:0 -90px;}
+.imgmanager div.header a.close {text-indent:-9999px; float:right; margin-right:-11px;}
+
+.imgmanager div.tree {width:25%; float:left;}
+.imgmanager ul {line-height:18px; padding:0px; margin:0px;}
+.imgmanager li {list-style: none; padding: 0px; padding-left: 20px; margin: 0px; white-space: nowrap;}
+.imgmanager li.collapsed {background:url('../img/folders.png') left top no-repeat;}
+.imgmanager li.expand {background:url('../img/folders.png') left bottom no-repeat;}
+.imgmanager li.loader {background:url('../img/spinner.gif') left top no-repeat;}
+.imgmanager li a {color:#333; text-decoration:none; display: block; padding:0px 2px;}
+.imgmanager li a:hover {background:#bdf;}
+.imgmanager div.preview {width:73%; float:right}
